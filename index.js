@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const login = require('./routes/login');
 const signup = require('./routes/signup');
 const dashboard = require('./routes/dashboard');
-const dbURL ='mongodb+srv://userName:password@talha.ehpgt.mongodb.net/databaseName';
+const dbURL ='';
 const mongoose = require('mongoose');
 
 var app = express();
