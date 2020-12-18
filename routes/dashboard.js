@@ -4,7 +4,7 @@ const requireAuth =require('../middleware/authMiddleware')
 
 const dashboard = require('../controller/dashboard');
 
-router.get('/', dashboard.dashboard);
+router.get('/',requireAuth , dashboard.dashboard);
 
  
  
